@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<index.html> </index.html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>NSDL PAN Application</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <style>
+          table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+          }
+          </style> 
+    </head>
+    <h4 style="background-color: rgba(95, 5, 5, 0.877); color:cornsilk"><center>
+      Request For New PAN Card Or/And Changes Or Correction in PAN Data<br>
+      Fields marked with * (asterisk) are mandatory. . To avoid mistake(s), please refer guidelines and instructions </center></h4>
+    <body style="background-color:rgb(233, 215, 183);font-family:'Italic';">
+<form>
+  <table style="width:100%">
+    <tr>
+    <td colspan="2"><b><FONT COLOR=RED>*</FONT>Weather Citizen of India:</b>
+    <input type="radio" id="type" name="applicant" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" id="type" name="applicant" value="no">
+      <label for="no">No</label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b><label for="pan"><FONT COLOR=RED>*</FONT>Permanant Account Number(PAN):</label></b>
+      <input type="text" id="pan" name="Pan"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b><FONT COLOR=RED>*</FONT>1.Name</b></td>
+    </tr>
+    <tr><td colspan="2"><b>Title</b>
+      <input type="radio" id="type" name="applicant" value="yes">
+        <label for="yes">Shri/Mr.</label>
+        <input type="radio" id="type" name="applicant" value="no">
+        <label for="no">Smt/Mrs.</label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b><label for="name">Last Name/Surname:</label></b>
+      <input type="text" id="name" name="lname"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b><label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"></b>
+    <b><label for="lname">Middle name:</label>
+      <input type="text" id="lname" name="lname"></b>
+    <b><label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"></b></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><label for="nameoncard"><FONT COLOR=RED>*</FONT>Name as you would like it printed on the card:</label></th>
+    <input type="text" id="name" name="nameoncard"></td>
+  </tr>
+   <tr>
+    <td colspan="2"><b>
+       2.Details of parents.</b>(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed.)
+     </th>
+   </tr>
+   <tr>
+    <td colspan="2"><b>
+      Whether mother is single parent and you wish to apply for PAN by furnishing the name of your mother only
+     </b>
+     <input type="radio" id="type" name="applicant" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" id="type" name="applicant" value="no">
+      <label for="no">No</label></td>
+   </tr>
+   <tr>
+    <td colspan="2"><b><FONT COLOR=RED>*</FONT>Father's Name</b>(Mandatory field. Even married women should give father's name).</td>
+   </tr>
+    <tr>
+      <td colspan="2"><b><label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"></b>
+      <b><label for="lname">Last name/Surname:</label>
+      <input type="text" id="lname" name="lname"></b></td>
+    </tr>
+    <tr>
+      <td colspan="2">Mother's Name(Optional field).</td>
+    </tr>
+     <tr>
+       <td><b><label for="fname">First name:</label>
+       <input type="text" id="fname" name="fname"></b>
+       <b><label for="lname">Last name/Surname:</label>
+       <input type="text" id="lname" name="lname"></b></td>
+     </tr>
+   <tr>
+    <td><b><FONT COLOR=RED>*</FONT>4.Select Parent name which is to be printed on card</b>(In case no option is provided then PAN card will be issued with father's name)</td>
+     <td><input type="radio" id="type" name="father" value="yes">
+      <label for="yes">Father's name</label>
+      <input type="radio" id="type" name="mother" value="no">
+      <label for="no">Mother's name</label></td>
+    </tr>
+    <tr>
+      <td><b><FONT COLOR=RED>*</FONT>5. Date of Birth/Incorporation/Agreement/Partnership
+        or Trust Deed/Formation of Body of Individuals/
+        Association of Persons</th>
+        <td><input type="Date" id="birthday" name="birthday"></td>
+    </tr>
+    <tr><td><b><FONT COLOR=RED>*</FONT>6.Gender:</b></td>
+      <td><input type="radio" id="gender" name="male" value="yes">
+        <label for="yes">Male</label>
+        <input type="radio" id="gender" name="female" value="no">
+        <label for="no">Female</label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>7.Photo Mismatch:</b></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>8.Signature Mismatch:</b></td>
+    </tr>
+    <tr>
+      <td><b><FONT COLOR=RED>*</FONT>9.Address of Communication</b></td>
+      <td><input type="radio" id="address" name="residential" value="yes">
+        <label for="residential">Residential</label>
+        <input type="radio" id="gender" name="office" value="no">
+        <label for="office">Office</label></td>
+    </tr>
+    <tr>
+      <td><b><label for="office">Office Name(to be filled only in case of office address):</label></b></td>
+      <td><input type="text" id="office name" name="office"></td>
+    </tr>
+    <tr>
+      <td><b><label for="doornum">Flat/Door/Block No.</label></b></td>
+      <td><input type="text" id="pan" name="doornum"></td>
+    </tr>
+    <tr>
+      <td><b><label for="building">Name of Premises/Building/Village</label></b></td>
+      <td><input type="text" id="pan" name="premises"></td>
+    </tr>
+    <tr>
+      <td><b><label for="locality">	Area/Locality/Taluka/Sub-Division</label></td>
+      <td><input type="text" id="street" name="roadnumber"></td>
+    </tr>
+    <tr>
+      <td><b><label for="town">Town/City/District</label></b></td>
+      <td><input type="text" id="town" name="city"></td>
+    </tr>
+    <tr>
+      <td><b><label for="state">State/Union Territory</label></b></td>
+      <td><input type="text" id="state" name="Pan"></td>
+    </tr>
+    <tr>
+      <td><b><label for="pin">Pincode:</label></b></td>
+      <td><input type="text" id="pin" name="Pincode"></td>
+    </tr>
+    <tr>
+      <td><b><label for="pan">Country:</label></b></td>
+      <td><input type="text" id="country" name="Pan"></td>
+    </tr>
+    <tr>
+      <td><b><label for="mobile"><FONT COLOR=RED>*</FONT>Telephone no(country code mandatory):</label></b></td>
+      <td><input type="text" id="mobile" name="Pan"></td>
+    </tr>
+    <tr>
+      <td><b><label for="mail">E-mail ID:</label></b></td>
+      <td><input type="email" id="mail" name="email"></td>
+    </tr>
+    <tr>
+      <td>Incase of a citizen of India, then</td>
+      <td><input type="radio" id="type" name="applicant" value="yes">
+        <label for="yes">AADHAAR</label>
+        <input type="radio" id="type" name="applicant" value="no">
+        <label for="no">EID</label></td>
+    </tr>
+    <tr>
+      <td><b><label for="aadhaar"><FONT COLOR=RED>*</FONT>12. AADHAAR Number:</label></b></td>
+      <td><input type="text" id="aadhaar" name="aadhaar number"></td>
+    </tr>
+    <tr>
+      <td><label for="aadhaar"><FONT COLOR=RED>*</FONT>Name as per AADHAAR<br>or<br>as per EID of Aadhaar application</label></td>
+      <td><input type="text" id="aadhaar" name="aadhaar name"></td>
+    </tr>
+    <tr>
+      <td><b><label for="gst">13.GSTIN:</label></b></td>
+      <td><input type="text" id="gstin" name="gst"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>14.Verification</b></td>
+    </tr>
+    <tr>
+      <td colspan="2">I/We<input type="text" id="gstin" name="gst">the applicant,in the capacity of Him/Herself do hereby declare that what is stated above is true. I had enclosed<input type="text" id="documents" name="doc" size=2 maxlength=2>(number of documents) in support of proposed changes/corrections.</td>
+    </tr>
+    <tr>
+      <td colspan="2">Place<input type="text" id="gstin" name="gst"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Wheather you wish to have?</b>
+    <input type="radio" id="type" name="applicant" value="yes">
+      <label for="yes">Physical PAN card & e-pancard</label>
+      <input type="radio" id="type" name="applicant" value="no">
+      <label for="no">Only e-pancard(fees applicable)</label></td>
+    </tr>
+    <tr>
+      <td colspan="2"><b>Other details</b></td>
+    </tr>
+  </table>
+
+  <tr>
+    <td align="left">Upload photo:<input type="file" id="doc_file_name" name="doc_file_name"></td>
+  </tr> 
+  <tr>
+    <td align="left">Upload signature:<input type="file" id="doc_file_name" name="doc_file_name"></td>
+  </tr>
+  <tr>
+    <td align="left">Upload document:<input type="file" id="doc_file_name" name="doc_file_name"></td>
+  </tr> <br><br>
+  <tr>
+    <td>ALREADY UPLOADED PHOTO:<input type="text" id="uploaded pic" name="uploaded photo"></td>
+  </tr><br><br>
+  <tr>
+    <td>ALREADY UPLOADED SIGNATURE:<input type="text" id="uploaded pic" name="uploaded photo"></td>
+  </tr><br><br>
+  <tr>
+    <td>ALREADY UPLOADED DOCUMENTS:<input type="text" id="uploaded documents" name="uploaded photo"></td>
+  </tr><br><br>
+  <input type="submit">
+</form>
+    </body>
+</html>
